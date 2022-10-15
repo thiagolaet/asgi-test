@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5ne+vx_*qkzr&6poa9ofpx!a*))$tsz&z%9c4a)*vqr747uv&!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.86.179.227', 'localhost', '0.0.0.0', '127.0.0.1', '*']
 
 
 # Application definition
@@ -37,8 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.messages'
 
     'chat'
 ]
